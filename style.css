@@ -10,11 +10,15 @@
     --FW_Article_Bot: 500;
 
     /* Font-Size ( Article ) */
-     --FS_Article_Text:13px;
+     --FS_Article_Text:16px;
+
+
 }
 
 body 
 {
+    padding-inline: 10%;
+    padding-block: 1%;
     font-family: "Barlow Semi Condensed", sans-serif;
 }
 
@@ -92,10 +96,11 @@ body
 
     color: hsl(260, 100%, 95%);
     background-color: hsl(263, 55%, 52%);
-    border-width: 3px;
-    border-style: solid;
+    
     border-radius: 5px;
-    border-color: black;
+/*     border-width: 3px;
+    border-style: solid;
+    border-color: black; */
 
     margin: 5px;
     padding: 10px;
@@ -161,10 +166,11 @@ body
 
     color: hsl(260, 100%, 95%);
     background-color: hsl(217, 19%, 35%);
-    border-width: 3px;
-    border-style: solid;
+
     border-radius: 5px;
-    border-color: black;
+/*     border-width: 3px;
+    border-style: solid;
+    border-color: black; */
     
     margin: 5px;
     padding: 10px;
@@ -222,10 +228,11 @@ body
 
     color: hsl(0, 0%, 7%);
     background-color: hsl(0, 0%, 100%);
-    border-width: 3px;
-    border-style: solid;
+
     border-radius: 5px;
-    border-color: black;
+/*     border-width: 3px;
+    border-style: solid;
+    border-color: black; */
 
     margin: 5px;
     padding: 10px;
@@ -281,10 +288,11 @@ body
 
     color: hsl(260, 100%, 95%);
     background-color: hsl(219, 29%, 14%);
-    border-width: 3px;
-    border-style: solid;
+
     border-radius: 5px;
-    border-color: black;
+/*     border-width: 3px;
+    border-style: solid;
+    border-color: black; */
 
     margin: 5px;
     padding: 10px;
@@ -341,9 +349,10 @@ body
     grid-template-rows: auto auto;
 
     color: hsl(0, 0%, 7%);
-    background-color: hsl(0, 0%, 100%);
-    border: 3px solid black;
+    background-color: hsl(0, 0%, 97%);
+
     border-radius: 5px;
+/*     border: 3px solid black; */
 
     margin: 5px;
     padding: 25px;
